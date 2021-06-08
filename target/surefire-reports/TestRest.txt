@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestRest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 1.237 s <<< FAILURE! - in TestRest
+TestPost  Time elapsed: 0.933 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at TestRest.TestPost(TestRest.java:17)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make private java.lang.Class(java.lang.ClassLoader,java.lang.Class) accessible: module java.base does not "opens java.lang" to unnamed module @5a10411
+	at TestRest.TestPost(TestRest.java:17)
+
+TestGet  Time elapsed: 0.017 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.jayway.restassured.RestAssured
+	at TestRest.TestGet(TestRest.java:12)
+
+TestPut  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.jayway.restassured.RestAssured
+	at TestRest.TestPut(TestRest.java:46)
+
+testDelete  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.jayway.restassured.RestAssured
+	at TestRest.testDelete(TestRest.java:41)
+

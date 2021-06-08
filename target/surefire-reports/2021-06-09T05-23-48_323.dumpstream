@@ -1,0 +1,12 @@
+# Created at 2021-06-09T05:23:49.950
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+# Created at 2021-06-09T05:23:49.951
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+# Created at 2021-06-09T05:23:49.951
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+# Created at 2021-06-09T05:23:52.445
+[AppClassLoader@7ad041f3] warning javax.* types are not being woven because the weaver option '-Xset:weaveJavaxPackages=true' has not been specified
+

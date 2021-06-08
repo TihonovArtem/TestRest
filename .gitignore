@@ -1,4 +1,4 @@
 .allure/
 .idea/
-allureReport.iml
+TestRest.iml
 allure-results/

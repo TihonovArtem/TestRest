@@ -9,7 +9,7 @@ public class TestRest {
 
     @Test
     public void TestGet() {
-        when().get(BASE_URL + "/pet/150").then().assertThat().statusCode(200);
+        when().get(BASE_URL + "/pet/150").then().assertThat().statusCode(404);
     }
 
     @Test
