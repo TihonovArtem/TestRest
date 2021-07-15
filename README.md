@@ -9,3 +9,4 @@
 с 2 коммандами:
 `1) "mvn clean test" .
 2) "mvn allure:serve"`
+
